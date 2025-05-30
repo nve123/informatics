@@ -5,7 +5,7 @@ public class Task2938 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int k = in.nextInt();
-        int sum = k/n;
+        int sum = k / n;
         System.out.println(sum);
     }
 }

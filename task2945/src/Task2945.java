@@ -5,6 +5,7 @@ import java.util.Scanner;
 //Вводится натуральное число.
 //Выходные данные
 //Выведите ответ на задачу.
+//Текст он принивает за if так что его надо убирать
 
 public class Task2945 {
     public static void main(String[] args) {

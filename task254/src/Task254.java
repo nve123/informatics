@@ -33,9 +33,9 @@ public class Task254 {
         int b = in.nextInt();
         int c = in.nextInt();
         int d = in.nextInt();
-        if (a == c || b == d){
+        if (a == c || b == d) {
             System.out.println("YES");
-        }else {
+        } else {
             System.out.println("NO");
         }
     }

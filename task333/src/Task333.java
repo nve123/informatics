@@ -21,15 +21,11 @@ public class Task333 {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        for (int i = 0; i < b; i++) {
-            if (a % 2 != 0){
-                a += 1;
-            }
-            if (a > b){
-                break;
-            }
-            System.out.print(a+" ");
-            a += 2;
+        if (a % 2 != 0) {
+            a += 1;
+        }
+        for (; a <= b; a += 2) {
+            System.out.print(a + " ");
         }
     }
 }

@@ -25,21 +25,21 @@ public class Task67 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] array = new int[n];
-        String hz = "";
+        String result = "";
         for (int i = 0; i < array.length; i++) {
             array[i] = in.nextInt();
         }
         if( n == 0 || n == 1){
-            hz = "NO";
+            result = "NO";
         }
         for (int i = 1; i < array.length; i++) {
             if (array[i] >= 0 && array[i - 1] >= 0 || array[i] < 0 && array[i - 1] < 0) {
-                hz = "YES";
+                result = "YES";
                 break;
             } else {
-                hz = "NO";
+                result = "NO";
             }
         }
-        System.out.print(hz);
+        System.out.print(result);
     }
 }

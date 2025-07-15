@@ -31,7 +31,7 @@ public class Task66 {
             array[i] = in.nextInt();
         }
         for (int i = 1; i < array.length; i++) {
-            if (array[i-1] < array[i]){
+            if (array[i - 1] < array[i]) {
                 count++;
             }
         }

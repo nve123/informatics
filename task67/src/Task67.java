@@ -31,7 +31,7 @@ public class Task67 {
         }
         if (n == 0 || n == 1) {
             System.out.println("NO");
-            return; 
+            return;
         }
         for (int i = 1; i < array.length; i++) {
             if (array[i] >= 0 && array[i - 1] >= 0 || array[i] < 0 && array[i - 1] < 0) {

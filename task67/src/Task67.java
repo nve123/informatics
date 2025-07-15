@@ -25,19 +25,16 @@ public class Task67 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] array = new int[n];
-        String result = "";
+        String result = "NO";
         for (int i = 0; i < array.length; i++) {
             array[i] = in.nextInt();
         }
         if (n == 0 || n == 1) {
-            result = "NO";
+            System.out.println("NO");
         }
         for (int i = 1; i < array.length; i++) {
             if (array[i] >= 0 && array[i - 1] >= 0 || array[i] < 0 && array[i - 1] < 0) {
                 result = "YES";
-                break;
-            } else {
-                result = "NO";
                 break;
             }
         }

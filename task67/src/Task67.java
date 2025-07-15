@@ -29,7 +29,7 @@ public class Task67 {
         for (int i = 0; i < array.length; i++) {
             array[i] = in.nextInt();
         }
-        if( n == 0 || n == 1){
+        if (n == 0 || n == 1) {
             result = "NO";
         }
         for (int i = 1; i < array.length; i++) {
@@ -38,6 +38,7 @@ public class Task67 {
                 break;
             } else {
                 result = "NO";
+                break;
             }
         }
         System.out.print(result);

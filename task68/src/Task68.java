@@ -41,7 +41,7 @@ public class Task68 {
             return;
         }
         for (int i = 1; i < array.length - 1; i++) {
-            if (array[i] >  array[i - 1] && array[i] > array[i + 1]) {
+            if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
                 count++;
             }
         }

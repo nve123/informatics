@@ -27,12 +27,9 @@ public class Task335 {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        int f = (int) Math.sqrt(a);
-        if (f * f >= a) {
-            f += 1;
-        }
+        int f = (int) Math.ceil(Math.sqrt(a));
         for (; f * f <= b; f++) {
-                System.out.print(f * f + " ");
+            System.out.print(f * f + " ");
         }
     }
 }

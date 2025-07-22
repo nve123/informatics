@@ -31,7 +31,7 @@ public class Task258 {
         int m = in.nextInt();
         int k = in.nextInt();
 
-        if ((k % n == 0 || k % m == 0) && k < n*m) {
+        if ((k % n == 0 || k % m == 0) && k < n * m) {
             System.out.println("YES");
         } else {
             System.out.println("NO");

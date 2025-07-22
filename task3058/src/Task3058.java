@@ -23,7 +23,7 @@ public class Task3058 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int x = 2;
-        while (n % x != 0){
+        while (n % x != 0) {
             x += 1;
         }
         System.out.println(x);

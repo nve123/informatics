@@ -21,9 +21,9 @@ public class Task113 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int i = 1;
-        while (i * i <= n){
-        System.out.println(i * i);
-        i++;
+        while (i * i <= n) {
+            System.out.println(i * i);
+            i++;
         }
     }
 }

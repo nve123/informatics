@@ -25,7 +25,7 @@ public class Task3059 {
         int n = in.nextInt();
         int x = 1;
         while (n >= x) {
-            System.out.print((int) x + " ");
+            System.out.print(x + " ");
             x *= 2;
         }
     }

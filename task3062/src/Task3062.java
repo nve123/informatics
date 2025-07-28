@@ -26,7 +26,7 @@ public class Task3062 {
         int y = in.nextInt();
         int day = 1;
         while (x < y) {
-            x = x * 1.1;
+            x *= 1.1;
             day++;
         }
         System.out.println(day);

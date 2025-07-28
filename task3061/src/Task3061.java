@@ -25,7 +25,7 @@ public class Task3061 {
         int n = in.nextInt();
         int k = 0;
         int b = 1;
-        while (n > b) {
+        while (b < n) {
             b *= 2;
             k++;
         }

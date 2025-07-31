@@ -43,7 +43,7 @@ public class Task3075 {
             e = f + s;
             k++;
         }
-        if (e == n){
+        if (e == n) {
             System.out.println(k);
         } else {
             System.out.println(-1);

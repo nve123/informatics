@@ -7,12 +7,10 @@ public class Task336n2 {
             int d = in.nextInt();
             int c = 0;
             if (d > 9) return;
-            for (int i = 0;; i++) {
-                if (n == 0) break;
+            for (;n > 0; n /= 10) {
                 if (n % 10 == d) {
                     c++;
                 }
-                n /= 10;
             }
             System.out.println(c);
     }

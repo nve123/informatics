@@ -20,11 +20,11 @@ import java.util.Scanner;
 public class Task342 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int f = 0;
+        int sum = 0;
         for (int i = 0; i < 100; i++) {
-            int n = in.nextInt();
-            f += n;
+            int num = in.nextInt();
+            sum += num;
         }
-        System.out.println(f);
+        System.out.println(sum);
     }
 }

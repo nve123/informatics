@@ -22,7 +22,7 @@ public class Task295 {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        if (a + b > c && a + c > b && c + b > a){
+        if (a + b > c && a + c > b && c + b > a) {
             System.out.println("YES");
         } else {
             System.out.println("NO");

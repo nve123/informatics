@@ -20,19 +20,19 @@ public class Task303 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int korova = in.nextInt();
-        String sklonSlovaKorov;
+        String cows;
         if (korova % 100 >= 11 && korova % 100 <= 19) {
-            sklonSlovaKorov = "korov";
+            cows = "korov";
         } else {
             int lastNomber = korova % 10;
             if (lastNomber == 1) {
-                sklonSlovaKorov = "korova";
+                cows = "korova";
             } else if (lastNomber >= 2 && lastNomber <= 4) {
-                sklonSlovaKorov = "korovy";
+                cows = "korovy";
             } else {
-                sklonSlovaKorov = "korov";
+                cows = "korov";
             }
         }
-        System.out.println(korova + " " + sklonSlovaKorov);
+        System.out.println(korova + " " + cows);
     }
 }
